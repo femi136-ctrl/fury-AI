@@ -1,0 +1,46 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swiftlab AI - Fury UI</title>
+  <link rel="stylesheet" href="/assert/style.css">
+  <script src="/assert/index.js" defer></script>
+</head>
+<body>
+
+<div class="container">
+  <div class="card">
+
+    <h2>Swiftlab AI</h2>
+    <p class="subtitle">Turn long content into threads & captions</p>
+
+    <!-- Tabs -->
+    <div class="tabs">
+      <div class="tab active">X Thread</div>
+      <div class="tab">Hooks</div>
+      <div class="tab">Captions</div>
+    </div>
+
+    <!-- Output (NOW RIGHT AFTER INPUT) -->
+    <div class="box" id="outputBox">
+      Your generated content will appear here...
+    </div>
+    <!-- Input -->
+    <textarea id="inputText" placeholder="Paste your content here..."></textarea>
+
+    <!-- Button LAST -->
+    <button onclick="generateContent()" id="genBtn">Generate</button>
+
+    <div class="footer">Demo only — AI coming soon</div>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
